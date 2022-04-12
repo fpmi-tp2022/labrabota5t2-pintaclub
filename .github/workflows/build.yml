@@ -2,11 +2,10 @@ name: autopark
 
 on: [push, pull_request]
 
-defaults:
-    run:
 jobs:
     build:
         runs-on: ubuntu-latest
         
         steps:
-            - run: make
+		- run: cd ../..		
+		- run: make
