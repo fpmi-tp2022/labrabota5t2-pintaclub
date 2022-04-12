@@ -1,0 +1,12 @@
+name: autopark
+
+on: [push, pull_request, merge]
+
+defaults:
+    run:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - run: make
