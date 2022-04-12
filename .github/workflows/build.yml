@@ -1,6 +1,6 @@
 name: autopark
 
-on: [push, pull_request, merge]
+on: [commit, push, pull_request]
 
 defaults:
     run:
